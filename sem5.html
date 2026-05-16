@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<link rel="stylesheet" href="../style.css">    
+<link rel="stylesheet" href="style.css">    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Semester 5 - Computer Engineering</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+body{background:#0f172a;color:#e2e8f0;}
+.navbar{background:#1e293b;padding:12px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;position:sticky;top:0;z-index:100;}
+.nav-logo{font-size:20px;font-weight:bold;}
+.nav-links{display:flex;list-style:none;gap:10px;flex-wrap:wrap;}
+.nav-links a{color:#e2e8f0;text-decoration:none;padding:6px 10px;border-radius:6px;font-size:14px;}
+.nav-links a:hover,.nav-links a.active{background:#38bdf8;color:#0f172a;}
+.container{max-width:1200px;margin:0 auto;padding:30px 20px;}
+h1,h2{margin:20px 0 15px 0;color:#fff;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin-top:20px;}
+.card{background:#1e293b;border:1px solid #334155;border-radius:10px;padding:20px;}
+.card h3{margin-bottom:8px;}
+.list{list-style:none;margin-top:15px;}
+.list li{background:#1e293b;padding:12px;margin-bottom:10px;border-radius:8px;display:flex;justify-content:space-between;align-items:center;}
+.btn-small{background:#334155;color:#fff;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:14px;margin:3px;display:inline-block;}
+.btn{background:#38bdf8;color:#0f172a;padding:10px 20px;border-radius:8px;text-decoration:none;display:inline-block;margin:5px;font-weight:bold;}
+footer{text-align:center;padding:20px;background:#1e293b;margin-top:40px;}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-logo">🎓 CE Portal</div>
+  <ul class="nav-links">
+    <li><a href="index.html">🏠 Home</a></li>
+    <li><a href="sem5.html" class="active">📘 Sem-5</a></li>
+    <li><a href="subjects.html">📚 Subjects</a></li>
+    <li><a href="codes.html">💻 Codes</a></li>
+    <li><a href="internship.html">🏢 Internship</a></li>
+    <li><a href="about.html">ℹ️ About</a></li>
+    <li><a href="contact.html">📞 Contact</a></li>
+  </ul>
+</nav>
+
+<section class="container">
+  <h1>🖥️ Semester 5 – Computer Engineering</h1>
+
+  <h2>Subjects List</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>🌳 Data Structures (DS)</h3>
+      <p>Code: DS-3001 | Credit: 3-1-2</p>
+      <a href="subjects/ds.html" class="btn-small">Notes</a>
+      <a href="pyqs.html#ds" class="btn-small">PYQs</a>
+      <a href="codes.html#ds" class="btn-small">Codes</a>
+    </div>
+    <div class="card">
+      <h3>🗄️ DBMS</h3>
+      <p>Code: DB-3002 | Credit: 3-0-2</p>
+      <a href="subjects/dbms.html" class="btn-small">Notes</a>
+      <a href="pyqs.html#dbms" class="btn-small">PYQs</a>
+      <a href="codes.html#dbms" class="btn-small">Codes</a>
+    </div>
+    <div class="card">
+      <h3>🌐 Web Technology</h3>
+      <p>Code: WT-3003 | Credit: 2-0-2</p>
+      <a href="subjects/webtech.html" class="btn-small">Notes</a>
+      <a href="pyqs.html#wt" class="btn-small">PYQs</a>
+      <a href="codes.html#wt" class="btn-small">Codes</a>
+    </div>
+  </div>
+
+  <h2>Sem-5 Notes</h2>
+  <ul class="list">
+    <li>Data Structures <a href="files/ds-notes.pdf" class="btn-small">📄 Download PDF</a></li>
+    <li>DBMS <a href="files/dbms-notes.pdf" class="btn-small">📄 Download PDF</a></li>
+    <li>Web Technology <a href="files/wt-notes.pdf" class="btn-small">📄 Download PDF</a></li>
+  </ul>
+
+  <h2>❓ Important Questions – Sem-5</h2>
+  <ul class="list">
+    <li><a href="important-questions.html#ds">Data Structures Important Qs</a></li>
+    <li><a href="important-questions.html#dbms">DBMS Important Qs</a></li>
+    <li><a href="important-questions.html#wt">Web Tech Important Qs</a></li>
+  </ul>
+
+  <h2>📄 Previous Year Question Papers – Sem-5</h2>
+  <ul class="list">
+    <li>DS – 2024 <a href="files/ds-2024.pdf" class="btn-small">📄 Download PDF</a></li>
+    <li>DS – 2023 <a href="files/ds-2023.pdf" class="btn-small">📄 Download PDF</a></li>
+    <li>DBMS – 2024 <a href="files/dbms-2024.pdf" class="btn-small">📄 Download PDF</a></li>
+  </ul>
+
+  <h2>💻 Sem-5 Lab Programs</h2>
+  <ul class="list">
+    <li>Data Structures Programs <a href="codes.html#ds" class="btn-small">View All Programs</a></li>
+    <li>DBMS SQL Queries <a href="codes.html#dbms" class="btn-small">View All Programs</a></li>
+    <li>Web Tech Projects <a href="codes.html#wt" class="btn-small">View All Programs</a></li>
+  </ul>
+
+  <h2>📑 Sem-5 Official Syllabus</h2>
+  <a href="files/sem5-syllabus.pdf" class="btn">📑 View Syllabus</a>
+
+</section>
+
+<footer>
+  <p>© 2026 CE Portal</p>
+</footer>
+
+</body>
+</html>
